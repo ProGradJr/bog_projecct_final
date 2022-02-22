@@ -1,0 +1,199 @@
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* Session 43 - starts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Poppins:wght@400;600;700;900&family=Roboto:wght@500;700&display=swap');
+
+
+h1,h2{
+    font-family: 'Playfair Display', serif;
+    /* color: #fef7ff; */
+    color: #662d91;
+}
+h3,h4,p,a{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+button{
+    margin: auto;
+    display: block;
+    text-align: center;
+    border: none;
+    margin-top: 30px;
+   
+}
+
+button p{
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    background-color: #662d91;
+    color: white;
+}
+
+.divh2{
+    text-align: left;
+    padding-top: 10px;
+    margin-left: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.container h3{
+    padding-top: 5px;
+    line-height: 30px;
+
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+/* Session 44  */
+button:hover{
+    box-shadow: 0px 5px 3px 0px rgba(50, 50, 50, 0.75);
+}
+
+.story:hover{
+    box-shadow: 0px 1px 4px 0px rgba(50, 50, 50, 0.75);
+    transform: scale(1.15);
+    
+} 
+/* Comment the code for the logo part */
+/* #logo {
+    background-color: grey;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+} */
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    justify-content:center;
+
+}
+
+nav>div {
+    margin: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+a {
+    text-decoration: none;
+    margin: 30px;
+    font-size: 18px;
+    color: #662d91;
+}
+a:hover{
+    color:#662d91;
+    font-weight: 600;
+}
+
+
+
+header {
+    height: 500px;
+    background-image: url(./Asset/header_image.png);
+   
+}
+
+header>h1 {
+    text-align: left;
+    padding-top: 180px;
+    font-size: 48px;
+    margin-left: 60px;
+
+}
+
+.section>h2 {
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.section>p {
+    margin-top: 40px;
+    text-align: center;
+    padding: 0px 280px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.div-container {
+    display: flex;
+}
+
+.div-container>div {
+    margin-top: 40px;
+    height: 60px;
+    width: 200px;
+    border: 1px solid black;
+    margin-left: 40px;
+
+}
+
+h3 {
+    padding-top: 10px;
+    
+}
+
+#box {
+    margin-top: 40px;
+
+}
+
+#box>div {
+    /* border: 1px solid black; */
+    height: 420px;
+    width: 400px;
+
+}
+
+.image-container {
+    height: 260px;
+    width: 400px;
+    background-color: grey;
+
+}
+
+#box h2 {
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+#box p {
+    margin-top: 40px;
+    margin-left: 10px;
+
+}
+
+footer {
+    margin-top: 60px;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+

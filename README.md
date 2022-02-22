@@ -1,1 +1,1 @@
-# bog_projecct_final
+# Design-thinking-blog-exercise
